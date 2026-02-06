@@ -6,7 +6,7 @@ Round Robin works by **assigning a fixed time quantum** (time slice) to each pro
 
 ---
 
-## 📌 Features  
+## Features  
 - Object-oriented design using `Process` and `Round_Robin` classes  
 - Tracks **arrival time, burst time, waiting time, and turnaround time**  
 - Supports **time-slice execution**  
@@ -15,7 +15,7 @@ Round Robin works by **assigning a fixed time quantum** (time slice) to each pro
 
 ---
 
-## 🧩 Code Example  
+## Code Example  
 
 ```py
 class Process:
@@ -58,7 +58,7 @@ queue = [
 
 ---
 
-## 🚀 How to Run  
+## How to Run  
 
 Clone the repository:  
 
@@ -75,7 +75,7 @@ python round_robin.py
 
 ---
 
-## 📊 Gantt Chart Visualization  
+## Gantt Chart Visualization  
 
 Visualize the execution of processes with a Gantt chart:
 
@@ -111,19 +111,19 @@ This chart **illustrates which process is executing at each time slice**, giving
 
 ---
 
-## 📈 Future Improvements  
+## Future Improvements  
 - Add dynamic Gantt chart generation from the Round Robin class  
 - Output **average waiting time** and **turnaround time** automatically  
-- Expand to include **other scheduling algorithms**: FCFS, SJF, Priority  
+- Expand to include **other scheduling algorithms**: FCFS, SJF, Priority too. (check a-lev spec)
 
 ---
 
-## 🛠️ Tech Used  
+## Tech Used  
 - Python 3  
 - Object-Oriented Programming  
 - Operating System Scheduling Concepts  
 
 ---
 
-## 📚 Learning Purpose  
+## Learning Purpose  
 This project was built to **practice operating system scheduling algorithms**, improve understanding of **process management**, and demonstrate **fair CPU allocation in time-sharing systems**.
